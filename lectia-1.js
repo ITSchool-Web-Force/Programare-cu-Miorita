@@ -14,4 +14,12 @@ move();
 turnLeft();
 move();
 
-//Versiunea 2 in lucru
+//Versiunea 2 
+
+while(canMove()){
+    move();
+    if(!canMove()){
+        turnLeft();
+        continue;
+    }  
+}
