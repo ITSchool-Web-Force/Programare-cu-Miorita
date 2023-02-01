@@ -1,12 +1,17 @@
 reset();
 
-let sheep=canMove();
+let sheep;
+sheep=canMove();
 
 while(sheep)
 {
     move();
-    if(!canMove())
+    sheep=canMove();
+
+    if(!sheep)
     {
       turnRight();
+      sheep=canMove();
     }
+
 }
