@@ -1,2 +1,29 @@
-// https://miorita.scoalaweb.ro/lessons/4-function
-// Scrie un program care să o ajute pe Miorița să ridice baltagul și să îl aducă Vitoriei
+function turn()
+{
+    turnRight()
+    turnRight()
+}
+
+function moveAlot(times = 1)
+{
+    for(var i=0; i < 1; i = i+1) {
+        move()
+    }
+}
+
+reset()
+turn()
+moveAlot(5)
+turnRight()
+move()
+turn()
+moveAlot(4)
+pick("hatchet")
+turn()
+moveAlot(4)
+turnLeft()
+move()
+turnLeft()
+moveAlot(6)
+drop("hatchet")
+
