@@ -6,9 +6,9 @@ if ( canMove() ) {
 }
 else {
     turnLeft()
-    move()
-    turnRight()
-    move()
-    move()
-    move()
+        move()
+        turnRight()
+        move()
+        move()
+        move()
 }
