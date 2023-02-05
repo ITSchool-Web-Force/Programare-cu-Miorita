@@ -16,7 +16,7 @@ while () {
   }
 }
 
-/* finite loop - dupa ce face dreapta de 5 ori (4 colturi + prima latura de care se loveste incepand din mijloc)
+/* finite - dupa ce face dreapta de 5 ori (4 colturi + prima latura de care se loveste incepand din mijloc)
 
 reset();
 
