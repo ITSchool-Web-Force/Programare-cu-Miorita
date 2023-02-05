@@ -13,7 +13,7 @@ function turnAround(direction = true) {
 
 function superMove(times = 1)
 {
-    for(var i = 0; i < times; i = i+1) {
+    for(let i = 0; i < times; i = i+1) {
         move();
     }
 }
