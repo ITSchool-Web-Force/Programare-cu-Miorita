@@ -1,3 +1,25 @@
-// https://miorita.scoalaweb.ro/lessons/2-if
-// Scrie un program care să o ajute pe Miorița să ajungă la oricare din pășuni
-// Programul trebuie să funcționeze și cu gard, și fără gard
+reset();
+
+function moveSet()
+{
+    move();
+    move();
+    move();
+}
+function turnAround()
+{
+    turnRight();
+    turnRight();
+    turnRight();
+  }
+
+if (canMove())
+{
+    moveSet();
+}
+else {
+    turnAround();
+    move();
+    turnRight();
+    moveSet();
+}
