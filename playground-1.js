@@ -5,7 +5,7 @@
 // infinite loop
 reset();
 
-while () {
+while (true) {
   if (canMove()) {
     move();
   } else {
