@@ -5,10 +5,10 @@
 reset();
 
 while (true) {
-  turnRight();
   if(canMove()) {
     break;
   }
+  turnRight();
 }
 
 while (canMove()) {
