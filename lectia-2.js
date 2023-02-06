@@ -14,4 +14,18 @@ if (canMove()) {
   move();
   move();
   move();
+};
+
+if (canMove()) {
+  move();
+  move();
+  move();
+} if(!canMove()) {
+  turnLeft();
+  move();
+  turnRight();
+  move();
+  move();
+  move();
 }
+
