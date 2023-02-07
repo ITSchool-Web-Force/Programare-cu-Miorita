@@ -19,3 +19,39 @@ turnRight();
 turnRight();
 turnRight();
 move();
+
+//varianta cu for
+
+reset();
+
+for (let i = 0; i < 1; i++) {
+  turnRight();
+}
+
+for (let i = 0; i < 1; i++) {
+  move();
+}
+
+for (let i = 0; i < 3; i++) {
+  turnRight();
+}
+
+for (let i = 0; i < 2; i++) {
+  move();
+}
+
+for (let i = 0; i < 3; i++) {
+  turnRight();
+}
+
+for (let i = 0; i < 1; i++) {
+  move();
+}
+
+for (let i = 0; i < 3; i++) {
+  turnRight();
+}
+
+for (let i = 0; i < 1; i++) {
+  move();
+}

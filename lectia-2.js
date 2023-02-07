@@ -25,3 +25,36 @@ if (!canMove()) {
   move();
   move();
 }
+
+//varianta 2
+
+reset();
+
+if (!canMove()) {
+  //cu gard
+  for (let i = 0; i < 3; i++) {
+    turnRight();
+  }
+  for (let i = 0; i < 1; i++) {
+    move();
+  }
+  turnRight();
+  for (let i = 0; i < 1; i++) {
+    move();
+  }
+  turnRight();
+  for (let i = 0; i < 1; i++) {
+    move();
+  }
+  for (let i = 0; i < 3; i++) {
+    turnRight();
+  }
+  for (let i = 0; i < 2; i++) {
+    move();
+  }
+} else {
+  //in cazul in care nu e gard
+  for (let i = 0; i < 3; i++) {
+    move();
+  }
+}
