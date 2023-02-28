@@ -3,11 +3,10 @@
 // Poți folosi oricare din conceptele învățate la curs, chiar și de la lecția a 4-a.
 reset();
 
-for (var i = 0; i < 6; i++) move();
-turnRight();
-for (var moves = 6; moves > 0; moves = moves - 1) {
+for (i = 0; i < 6; i++) move();
+for (moves = 6; moves > 0; moves = moves - 1) {
   turnRight();
-  for (var i = 0; i < moves; i++) move();
+  for (i = 0; i < moves; i++) move();
   turnRight();
-  for (var i = 0; i < moves; i++) move();
+  for (i = 0; i < moves; i++) move();
 }
