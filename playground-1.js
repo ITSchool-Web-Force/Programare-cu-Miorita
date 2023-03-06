@@ -1,2 +1,19 @@
-// https://miorita.scoalaweb.ro/playgrounds/index
-// Fă-o pe Miorița să ajungă în fiecare din cele 4 colțuri ale stânei
+let count = 0;
+
+while (canMove()) {
+    move();
+    count++;
+
+    if (!canMove())
+{
+    turnRight();
+
+}
+    if (count==30){
+    turnRight();
+    move();
+    move();
+    move();
+    break;
+    }
+    }
